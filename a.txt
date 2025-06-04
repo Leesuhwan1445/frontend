@@ -1,5 +1,24 @@
-git init
+git init //최초 깃을 사용하기 위한 명령어
 
-git add a.txt
+git add a.txt // 스테이징 아리아에 올리기 위한 명령어
 
-git commit -m "첫번째 커밋"
+git add . //변경된 모든 파일들이 전부 스테이징 아리아에 올라감
+
+git restore --staged 파일명 // 스테이징 아리아에 올라가 있는 파일을 빼는 명령어
+
+git commit -m "첫번째 커밋" //"첫번째 커밋" 커밋을 위한 명령어
+
+git status //깃 상태를 보기 위한 명령어
+
+git log --all --oneline //커밋 기록 확인을 위한 명령어.
+
+git diff // 현재 코드와 마지막 커밋간의 차이점 확인을 위한 명령어
+
+git difftool //
+
+git branch // 
+
+git branch 브런치 이름 // 브런치 생성 명령어
+
+git checkout 브런치 이름 // 브런치 이동을 위한 명령어
+
