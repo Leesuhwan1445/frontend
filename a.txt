@@ -24,3 +24,6 @@ git checkout 브런치 이름 // 브런치 이동을 위한 명령어
 
 git merge 브런치 이름 //브런치와 다른 브런치를 머지하기 위한 명령어 (합친다)
 
+git brach -d 브런치 이름 // 브랜치를 삭제하는 명령어
+
+PR : pull Request
