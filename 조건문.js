@@ -13,13 +13,13 @@ if (a === b) {
 const result = a === b ? 'a와 b는 같습니다 ' : 'a와 b는 다릅니다';
 console.log(result);
 
-//switch 문
+//switch 
 switch (a) {
     case b:
         console.log('a는 b와 같습니다');
         break;
     case c:
-        console.log('a는 c와 같습니다');
+        console.log('a는 b와 같습니다');
         break;
     default:
         console.log('a는 b나 c와 같지 않습니다');
