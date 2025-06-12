@@ -15,3 +15,5 @@ const arrowfuntion = (x, y) => {
 }
 console.log(funtionname(a - c)) // 값이 오류가 생긴다
 
+
+
