@@ -1,0 +1,11 @@
+{
+  "name": "frontend-main",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Leesuhwan1445/frontend.git",
+  "author": "Leesuhwan1445 <lhh080@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite"
+  }
+}

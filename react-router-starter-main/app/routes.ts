@@ -15,6 +15,26 @@ export default [
 
   route('reservation', 'routes/pages/reservation.tsx'),
 
+  route('quest1', 'routes/pages/test/quest1.tsx'),
+  route('quest2', 'routes/pages/test/quest2.tsx'),
+  route('quest3', 'routes/pages/test/quest3.tsx'),
+  route('quest4', 'routes/pages/test/quest4.tsx'),
+  route('quest5', 'routes/pages/test/quest5.tsx'),
+
+  route('result1', 'routes/pages/result/result1.tsx'),
+  route('result2', 'routes/pages/result/result2.tsx'),
+  route('result3', 'routes/pages/result/result3.tsx'),
+  route('result4', 'routes/pages/result/result4.tsx'),
+  route('result5', 'routes/pages/result/result5.tsx'),
+
+  route('useMemo', 'routes/pages/useMemo.tsx'),
+  route('customHookCount', 'routes/pages/customHookCount.tsx'),
+  route('fetchApi', 'routes/pages/fetch-api.tsx'),
+  route('ssrFetchApi', 'routes/pages/ssr-fetch-api.tsx'),
+  route('postApi', 'routes/pages/post-api.tsx'),
+  route('ssrPostApi', 'routes/pages/ssr-post-api.tsx'),
+  route('fetchApiTest', 'routes/pages/fetch-api-test.tsx'),
+
   // * APIs
   ...prefix('api', [
     route('theme', 'routes/apis/theme.ts'),
